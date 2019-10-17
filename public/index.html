@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--http协议-->
+<form action="/form" method="get">
+    <div>
+        <label for="name">姓名</label>
+        <input name="name" id="name" type="text" placeholder="请填写用户姓名" value="">
+    </div>
+    <div>
+        <label for="mobile">手机</label>
+        <input name="mobile" id="mobile" type="text" placeholder="请填写手机号码 " value="">
+    </div>
+
+    <div>
+        <label for="male">男性</label>
+        <input id="male" type="radio" name="gender" value="1">
+        <label for="female">女性</label>
+        <input id="female" type="radio" name="gender" value="2">
+    </div>
+
+    <div>
+        <label for="c5">5班</label>
+        <input id="c5" type="radio" name="class" value="5">
+        <label for="c6">6班</label>
+        <input id="c6" type="radio" name="class" value="6">
+    </div>
+
+    <div>
+        <label for="favorite">爱好</label>
+        <select name="favorite" id="favorite">
+            <option value="1">电影</option>
+            <option value="2">音乐</option>
+            <option value="3">编程</option>
+        </select>
+    </div>
+
+    <input type="submit" value="点击提交">
+</form>
+</body>
+</html>
